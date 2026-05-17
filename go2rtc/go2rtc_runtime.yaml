@@ -1,0 +1,10 @@
+api:
+  listen: :1984
+  origin: '*'
+log:
+  level: warn
+rtsp:
+  listen: :8555
+streams:
+  drone_live:
+  - rtsp://admin:admin123@172.20.10.6:8554/streaming/live/1
